@@ -1,0 +1,9 @@
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DAL.csprojResolveAssemblyReference.cache
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+D:\分库分表DAL\DotNetDAL\DAL\bin\Debug\netstandard2.0\DotNetDAL.deps.json
+D:\分库分表DAL\DotNetDAL\DAL\bin\Debug\netstandard2.0\DotNetDAL.dll
+D:\分库分表DAL\DotNetDAL\DAL\bin\Debug\netstandard2.0\DotNetDAL.pdb
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DotNetDAL.dll
+D:\分库分表DAL\DotNetDAL\DAL\obj\Debug\netstandard2.0\DotNetDAL.pdb

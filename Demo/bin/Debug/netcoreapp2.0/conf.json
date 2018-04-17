@@ -1,0 +1,37 @@
+{
+  "dbEngine": {
+    "name": "sqlProvider",
+    "typeName": "Arch.Data.DbEngine.Providers.SqlDatabaseProvider"
+  },
+  "databaseSets": [
+    {
+      "name": "dao_test",
+      "provider": "sqlProvider",
+      "shardingStrategy": "class=Arch.Data.DbEngine.Sharding.ModShardingStrategy;column=Id;mod=2;shardByDB=true",
+      "databaseSet": [
+        {
+          "name": "dao_test0",
+          "databaseType": "Master",
+          "sharding": "0",
+          "connectionString": "dao_test0"
+        },
+        {
+          "name": "dao_test1",
+          "databaseType": "Master",
+          "sharding": "1",
+          "connectionString": "dao_test1"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "name": "dao_test0",
+      "connection": "Data Source=.;Initial Catalog=Test1;User ID=sa;Password=admin;"
+    },
+    {
+      "name": "dao_test1",
+      "connection": "Data Source=.;Initial Catalog=Test2;User ID=sa;Password=admin;"
+    }
+  ]
+}
